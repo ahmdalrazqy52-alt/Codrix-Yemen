@@ -1,0 +1,3 @@
+[functions.send-contact-email]
+verify_jwt = false
+entrypoint = "./functions/send-contact-email/index.ts"
