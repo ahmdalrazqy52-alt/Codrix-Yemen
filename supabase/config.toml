@@ -1,0 +1,15 @@
+[functions.send-contact-email]
+verify_jwt = false
+entrypoint = "./functions/send-contact-email/index.ts"
+
+[functions.generate-copy]
+verify_jwt = true
+entrypoint = "./functions/generate-copy/index.ts"
+
+[functions.create-admin]
+verify_jwt = true
+entrypoint = "./functions/create-admin/index.ts"
+
+[functions.update-owner-credentials]
+verify_jwt = true
+entrypoint = "./functions/update-owner-credentials/index.ts"
